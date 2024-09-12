@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Kalkulator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="table_content">
+                <table class="inputan">
+                    <tr>
+                        <td>
+                            <input id="input" type="text" />
+                        </td>
+                    </tr>
+                </table>
+                <table class="tombol">
+                    <tr>
+                        <td><button onclick="reset()">AC</button></td>
+                        <td>
+                            <button onclick="hapus()"><i class="bx bxs-tag-x"></i></button>
+                        </td>
+                        <td><button onclick="angka(' % ')">%</button></td>
+                        <td><button onclick="angka(' / ')">÷</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="angka(7)">7</button></td>
+                        <td><button onclick="angka(8)">8</button></td>
+                        <td><button onclick="angka(9)">9</button></td>
+                        <td><button onclick="angka( ' * ')">×</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="angka(4)">4</button></td>
+                        <td><button onclick="angka(5)">5</button></td>
+                        <td><button onclick="angka(6)">6</button></td>
+                        <td><button onclick="angka(' - ')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="angka(1)">1</button></td>
+                        <td><button onclick="angka(2)">2</button></td>
+                        <td><button onclick="angka(3)">3</button></td>
+                        <td><button onclick="angka(' + ')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="angka('00')">00</button></td>
+                        <td><button onclick="angka(0)">0</button></td>
+                        <td><button onclick="angka('.')">,</button></td>
+                        <td><button onclick="samaDengan()">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

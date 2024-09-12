@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial, Sans-Serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_content {
+    background: rgba(2, 2, 2, 0.5);
+}
+
+.table_content .inputan input {
+    width: 100%;
+    font-size: 1.4em;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.table_content .inputan input:focus {
+    box-shadow: 0 0 3px 2px blue;
+}
+
+.table_content .inputan,
+.table_content .tombol {
+    padding: 10px;
+}
+.table_content {
+    border-radius: 5px;
+}
+
+.table_content .tombol {
+    width: 100%;
+}
+
+.table_content .tombol button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: rgba(230, 230, 230, 0.4);
+}
+
+.table_content .tombol button i {
+    font-size: 1.18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .table_content .inputan input {
+        font-size: 1.1em;
+    }
+
+    .table_content .tombol button {
+        font-size: 1.1em;
+    }
+}
