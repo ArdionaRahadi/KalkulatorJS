@@ -8,7 +8,7 @@ function samaDengan() {
         document.getElementById("input").value = "Masukkan Angkanya";
     } else {
         let hasil = document.getElementById("input").value;
-        let test = (document.getElementById("input").value = "Hello World!!");
+        document.getElementById("input").value = "Hello World!!";
     }
 }
 
